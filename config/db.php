@@ -1,9 +1,9 @@
 <?php
 // Configuration MySQLi
-$host = 'localhost';
-$dbname = 'kivupieces';
-$username = 'root';
-$password = '';
+$host = 'sql203.infinityfree.com';
+$dbname = 'if0_41298805_kivupieces';
+$username = 'if0_41298805';
+$password = 'NaMR1QBVpe9Wr';
 
 // Création de la connexion
 $conn = new mysqli($host, $username, $password, $dbname);
