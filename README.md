@@ -1,44 +1,52 @@
-# Kivupieces
+# KivuPieces - Plateforme E-commerce de Pièces de Rechange
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![PHP](https://img.shields.io/badge/PHP-8.x-blue.svg)
+![MySQL](https://img.shields.io/badge/MySQL-MariaDB-orange.svg)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Usage Examples](#usage-examples)
-- [Language Composition](#language-composition)
-- [Future Improvements](#future-improvements)
-- [License](#license)
+KivuPieces est une application web dynamique permettant la consultation et l'achat de pièces mécaniques. 
+Ce projet a été conçu pour répondre aux besoins de l'écosystème numérique local en facilitant l'accès aux ressources techniques.
 
-## Introduction
-Kivupieces is a versatile project that helps you ... (describe the main functionality of the project).
+**Démo en ligne :** [http://kivupieces-rdc.gt.tc/](http://kivupieces-rdc.gt.tc/)
 
-## Prerequisites
-- [Node.js](https://nodejs.org/) (version)
-- npm (version)
-- Git (version)
+## 📋 Table des matières
+- [Fonctionnalités](#fonctionnalités)
+- [Stack Technique](#stack-technique)
+- [Prérequis](#prérequis)
+- [Installation](#installation)
+- [Composition des langages](#composition-des-langages)
+- [Auteur](#auteur)
 
-## Usage Examples
-### Example 1
-```javascript
-// Code snippet for usage example 1
-```
+## ✨ Fonctionnalités
+- **Catalogue Dynamique :** Affichage des produits en temps réel depuis la base de données.
+- **Système d'Authentification :** Inscription et connexion sécurisées pour les utilisateurs.
+- **Gestion du Panier :** Ajout de produits au panier (réservé aux utilisateurs connectés).
+- **Interface Responsive :** Utilisation de Bootstrap pour une compatibilité mobile et tablette.
 
-### Example 2
-```python
-# Code snippet for usage example 2
-```
+## 🛠️ Stack Technique
+- **Backend :** PHP 8.x
+- **Base de données :** MySQL (MariaDB)
+- **Frontend :** HTML5, CSS3 (Bootstrap 5), JavaScript
+- **Serveur local :** XAMPP
 
-## Language Composition
-- JavaScript
-- Python
-- ... (other languages used in the project)
+## 📦 Prérequis
+Avant de commencer, assurez-vous d'avoir installé :
+- XAMPP (Apache + MySQL + PHP)
+- Git
+- Un navigateur web moderne
 
-## Future Improvements
-- Add more features
-- Optimize existing functionalities
-- Improve documentation
+## 🚀 Installation
+1. Cloner le projet : `git clone https://github.com/GermsM/Kivupieces.git`
+2. Importer le fichier `kivupieces.sql` dans votre interface phpMyAdmin.
+3. Configurer les accès à la base de données dans le fichier de connexion 'config'.
+4. Lancer le serveur Apache et MySQL via XAMPP.
+5. Accéder au projet via `localhost/Kivupieces`.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📊 Composition des langages
+- **PHP** : 88.8%
+- **JavaScript** : 10.2%
+- **CSS** : 1.0%
+
+## 👨‍💻 Auteur
+**GermsM** - Développeur Fullstack
