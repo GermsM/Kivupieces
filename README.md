@@ -44,9 +44,9 @@ Avant de commencer, assurez-vous d'avoir installé :
 5. Accéder au projet via `localhost/Kivupieces`.
 
 ## Composition des langages
-- **PHP** : 88.8%
+- **PHP** : 59.6%
 - **JavaScript** : 10.2%
-- **CSS** : 1.0%
+- **CSS** : 33.0%
 
 ## Auteur
 **GermsM** - Développeur Fullstack
