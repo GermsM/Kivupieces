@@ -45,8 +45,8 @@ Avant de commencer, assurez-vous d'avoir installé :
 
 ## Composition des langages
 - **PHP** : 59.6%
-- **JavaScript** : 10.2%
-- **CSS** : 33.0%
+- **JavaScript** : 6.8%
+- **CSS** : 33.6%
 
 ## Auteur
 **GermsM** - Développeur Fullstack
